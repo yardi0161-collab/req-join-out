@@ -1,3 +1,5 @@
+"use client";
+
 // RequestPortal.tsx
 // Perlu: npm install @supabase/supabase-js
 // Provider Discord harus sudah diaktifkan di Supabase Auth (lihat PANDUAN.md).
