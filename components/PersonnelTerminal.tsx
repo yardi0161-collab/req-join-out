@@ -1713,7 +1713,6 @@ export default function PersonnelTerminal() {
   useEffect(
     () => () => {
       if (joinRef.current.photo) URL.revokeObjectURL(joinRef.current.photo.url);
-      if (outRef.current.photo) URL.revokeObjectURL(outRef.current.photo.url);
     },
     []
   );
